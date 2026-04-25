@@ -8,7 +8,7 @@ int main() {
     printf("Selected Activities:\n");
 
     int i = 0;
-    printf("A%d ", i+1);   // select first activity
+    printf("A%d ", i+1);  
 
     for(int j = 1; j < n; j++) {
         if(start[j] >= finish[i]) {
